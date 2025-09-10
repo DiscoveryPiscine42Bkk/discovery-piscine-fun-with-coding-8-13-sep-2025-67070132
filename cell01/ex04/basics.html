@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Basics</title>
+    <style>
+        body {
+            background-color: pink;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+            color: white;
+            font-size: 3em;
+            margin-top: 50px;
+        }
+
+        .images {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            margin: 50px 0 20px 0;
+        }
+
+        .image-box {
+            text-align: center;
+        }
+
+        hr {
+            border: none;
+            border-top: 2px solid #fff;
+            margin: 40px 20px;
+        }
+
+        .footer {
+            text-align: right;
+            font-style: italic;
+            font-family: monospace;
+            padding: 0 20px 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Welcome to the B@sics!</h1>
+
+    <div class="images">
+        <div class="image-box">
+            <img src="https://down-th.img.susercontent.com/file/sg-11134201-7rcc1-lr9l52r37nl705.webp" alt="weighing scale" width="200">
+            <div><a href="https://shopee.co.th/%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%87%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%AB%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%94%E0%B8%B4%E0%B8%88%E0%B8%B4%E0%B8%95%E0%B8%AD%E0%B8%A5-%E0%B8%95%E0%B8%B2%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%87%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%AB%E0%B8%99%E0%B8%B1%E0%B8%81-%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%87%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%AB%E0%B8%99%E0%B8%B1%E0%B8%81-180KG-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%88%E0%B8%81%E0%B9%83%E0%B8%AA-%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%87%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%AB%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%94%E0%B8%B4%E0%B8%88%E0%B8%B4%E0%B8%95%E0%B8%AD%E0%B8%A5-%E0%B9%81%E0%B8%AA%E0%B8%94%E0%B8%87%E0%B8%9C%E0%B8%A5%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%88%E0%B8%AD-LCD-i.785960549.24862098883?sp_atk=38a77534-1d13-42b0-90b0-b7b6e14ec4f1&xptdk=38a77534-1d13-42b0-90b0-b7b6e14ec4f1" target="_blank">weighing scale</a></div>
+        </div>
+        <div class="image-box">
+            <img src="https://down-th.img.susercontent.com/file/th-11134207-7rase-m8vqwsb7876o1f.webp" alt="fan" width="200">
+            <div><a href="https://shopee.co.th/-%E0%B8%A5%E0%B8%B9%E0%B8%81%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-1-%E0%B8%9A%E0%B8%B2%E0%B8%97-%E0%B8%9E%E0%B8%B1%E0%B8%94%E0%B8%A5%E0%B8%A1%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%96%E0%B8%B7%E0%B8%AD-%E0%B8%9E%E0%B8%B1%E0%B8%94%E0%B8%A5%E0%B8%A1%E0%B9%80%E0%B8%97%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B9%82%E0%B8%9A%E0%B8%9E%E0%B8%81%E0%B8%9E%E0%B8%B2-%E0%B8%9E%E0%B8%B1%E0%B8%94%E0%B8%A5%E0%B8%A1%E0%B8%A1%E0%B8%B4%E0%B8%99%E0%B8%B4-%E0%B8%A5%E0%B8%A1%E0%B9%81%E0%B8%A3%E0%B8%87%E0%B8%A1%E0%B8%B2%E0%B8%81-%E0%B8%9B%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%84%E0%B8%94%E0%B9%893%E0%B8%A3%E0%B8%B0%E0%B8%94%E0%B8%B1%E0%B8%9A-%E0%B8%88%E0%B8%AD%E0%B9%81%E0%B8%AA%E0%B8%94%E0%B8%87%E0%B8%9C%E0%B8%A5LED-%E0%B9%81%E0%B8%9A%E0%B8%95%E0%B8%AD%E0%B8%B6%E0%B8%94-%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%AB%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B9%80%E0%B8%9A%E0%B8%B2-%E0%B8%9E%E0%B8%81%E0%B8%9E%E0%B8%B2%E0%B8%AA%E0%B8%B0%E0%B8%94%E0%B8%A7%E0%B8%81-i.119240974.27761672450?sp_atk=e77bc860-820f-4910-a9a2-8307d0fb2d70&xptdk=e77bc860-820f-4910-a9a2-8307d0fb2d70" target="_blank">fan</a></div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="footer">
+        © wil 2025
+    </div>
+
+</body>
+</html>
