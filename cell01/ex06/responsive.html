@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Responsive Table</title>
+    <style>
+        /* รีเซ็ตค่าพื้นฐาน */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            height: 100%;
+            width: 100%;
+        }
+
+        table {
+            width: 100%;
+            height: 100vh; /* สูงเต็มหน้าจอ */
+            border-collapse: collapse;
+            table-layout: fixed; /* ให้คอลัมน์แบ่งเท่ากัน */
+        }
+
+        td {
+            text-align: center;
+            vertical-align: middle;
+            font-size: 2vw; /* ย่อขนาดอักษรตามขนาดจอ */
+            color: white;
+            word-wrap: break-word;
+        }
+
+        .box1 {
+            background-color: mediumseagreen;
+        }
+
+        .box2 {
+            background-color: tomato;
+        }
+
+        @media (max-width: 600px) {
+            td {
+                font-size: 4vw; /* ตัวหนังสือใหญ่ขึ้นนิดเมื่อจอแคบ */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <table border="1">
+        <tr>
+            <td class="box1">Chicken</td>
+            <td class="box2">Banana</td>
+        </tr>
+    </table>
+
+</body>
+</html>
