@@ -1,4 +1,3 @@
-/* รีเซ็ตและกำหนดขนาดเบื้องต้น */
 * {
     margin: 0;
     padding: 0;
@@ -10,10 +9,9 @@ html, body {
     height: 100%;
 }
 
-/* ทำให้ตารางเต็มหน้าจอ และ Responsive */
 table {
     width: 100%;
-    height: 100vh; /* เต็มความสูงหน้าจอ */
+    height: 100vh;
     border-collapse: collapse;
     table-layout: fixed;
 }
@@ -21,7 +19,7 @@ table {
 td {
     text-align: center;
     vertical-align: middle;
-    font-size: 2vw; /* ฟอนต์ปรับตามขนาดหน้าจอ */
+    font-size: 2vw;
     color: white;
     word-wrap: break-word;
 }
@@ -34,7 +32,6 @@ td {
     background-color: indianred;
 }
 
-/* รองรับหน้าจอแคบ เช่น มือถือ */
 @media (max-width: 600px) {
     td {
         font-size: 4vw;
