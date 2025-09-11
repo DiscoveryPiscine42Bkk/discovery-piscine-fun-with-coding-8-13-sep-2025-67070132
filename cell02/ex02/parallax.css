@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: sans-serif;
+}
+
+.parallax {
+  position: relative;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bg1 {
+  background-image: url('https://pakmud.com/wp-content/uploads/2023/03/%E0%B8%A1%E0%B8%B5%E0%B8%A1%E0%B9%81%E0%B8%A1%E0%B8%A7-2-356x358.jpg');
+}
+
+.bg2 {
+  background-image: url('https://preview.redd.it/9pg8xqksrdw71.jpg?width=640&crop=smart&auto=webp&s=ffee55e311c8353e9762cdf1c7ae4bd165dbecc9');
+}
+
+.text-center {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 30px 50px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.content-block {
+  background-color: black;
+  color: white;
+  padding: 50px 20px;
+  text-align: center;
+}
