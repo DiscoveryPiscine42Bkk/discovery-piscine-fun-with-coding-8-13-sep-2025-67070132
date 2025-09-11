@@ -1,4 +1,3 @@
-// ฟังก์ชันสร้างสีแบบสุ่มในรูปแบบ HEX
 function getRandomColor() {
     const letters = '0123456789ABCDEF';
     let color = '#';
@@ -8,7 +7,6 @@ function getRandomColor() {
     return color;
 }
 
-// จับปุ่มแล้วเปลี่ยนสี background ของ body
 document.getElementById('changeColorBtn').addEventListener('click', function () {
     const randomColor = getRandomColor();
     document.body.style.backgroundColor = randomColor;
