@@ -1,0 +1,72 @@
+body {
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  width: 300px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.card h1 {
+  margin-bottom: 20px;
+  font-size: 1.5em;
+}
+
+/* ซ่อนเส้นตาราง */
+.card-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.card-table td {
+  border: none;
+  padding: 8px;
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.login {
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.description {
+  color: #777;
+  font-size: 0.9em;
+}
+
+.socials img {
+  width: 24px;
+  height: 24px;
+  margin: 0 5px;
+  transition: transform 0.2s;
+}
+
+.socials img:hover {
+  transform: scale(1.2);
+}
+
+.contact-button button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-button button:hover {
+  background-color: #0056b3;
+}
