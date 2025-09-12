@@ -1,39 +1,97 @@
 body {
-    padding-top: 70px;
-    background-color: #f8f9fa;
+    background: url('https://nittygrittyscience.com/wp-content/uploads/space.jpg') no-repeat center center fixed;
+    background-size: cover;
 }
 
-.hero-section {
-    background-color: #343a40;
-    color: white;
+/* Navbar */
+.navbar {
+    background: #07010b !important;
+    backdrop-filter: blur(5px);
+}
+
+.navbar .navbar-brand {
+    color: white !important;
+}
+
+.navbar .nav-link {
+    color: white !important;
+}
+
+.navbar .nav-link:hover {
+    color: #9e1d84 !important;
+}
+
+/* Sub_bg */
+.sub_bg {
+    background: rgba(7, 1, 11, 0.65);
+    color: #fff;
     padding: 80px 20px;
+    padding-top: 100px;
+    text-align: center;
+    border-radius: 12px;
+    margin: 0px;
+}
+
+.sub_bg .btn-primary {
+    background-color: #ff758f;
+    border: none;
+}
+
+.sub_bg .btn-primary:hover {
+    background-color: #e94e77;
+}
+
+/* box */
+.box {
+    padding: 60px 20px;
+    border-radius: 12px;
+    margin: 40px;
     text-align: center;
 }
 
-.hero-section h1 {
-    font-size: 3rem;
-    margin-bottom: 20px;
-}
-
-.hero-section p {
-    font-size: 1.2rem;
-}
-
-.features {
-    padding: 60px 20px;
-}
-
-.features .card {
+.box .card {
+    background: rgba(255, 255, 255, 0.75);
+    border: none;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s;
+    border-radius: 12px;
 }
 
-.features .card:hover {
+.box .card:hover {
     transform: translateY(-10px);
 }
 
-footer {
-    background-color: #343a40;
+.box .btn-outline-primary {
+    border-color: #9e1d84;
+    color: #9e1d84;
+}
+
+.box .btn-outline-primary:hover {
+    background-color: #9e1d84;
     color: white;
-    padding: 20px;
-    text-align: center;
+}
+
+/* info-section */
+.info-section .card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff3f3;
+}
+
+.info-section .card-title {
+    color: #000000;
+}
+
+.info-section .card-text {
+    color: #000000;
+}
+
+.btn-outline-primary {
+    border-color: #9e1d84;
+    color: #9e1d84;
+}
+
+footer {
+    background: rgba(50, 20, 60, 0.7);
+    color: #fff3f3;
 }
